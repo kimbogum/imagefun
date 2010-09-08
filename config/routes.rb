@@ -1,4 +1,6 @@
 Imagefun::Application.routes.draw do
+  resources :photos
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
